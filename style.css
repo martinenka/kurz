@@ -1,0 +1,482 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+body {
+  height: 100%;
+  font-family: Lato;
+  color: #616161;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+button,
+a {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1 {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 32px;
+}
+h2 {
+  color: #0e6e76;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+i {
+  color: #a7a7a7;
+  font-size: 12px;
+  line-height: 14px;
+  display: block;
+}
+b {
+  font-weight: 800;
+  font-size: 16px;
+}
+big {
+  color: #2d2a2a;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 28px;
+  display: inline-block;
+}
+.blue {
+  color: #0e6e76;
+}
+.light-blue {
+  color: #1a8594;
+}
+.darkgrey {
+  color: #181b20;
+}
+.white {
+  color: white;
+}
+li {
+  list-style: none;
+}
+.header {
+  height: 475px;
+  background: url('images/girls3.png') no-repeat center top;
+  background-size: 640px auto;
+  background-attachment: initial;
+}
+.header .overlay {
+  background-image: radial-gradient(433px 201px at 54.1% 50.55%, rgba(40, 44, 50, 0.44) 3%, rgba(40, 44, 50, 0.87) 99%);
+  width: 100%;
+  height: 100%;
+}
+.header .bottom-bar {
+  width: 100%;
+  height: 166px;
+  background-color: rgba(43, 47, 51, 0.8);
+  position: absolute;
+  bottom: 0;
+}
+.header .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 475px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  color: white;
+}
+.header .text .top-text {
+  text-align: left;
+  margin: 20px 20px 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+.header .text h1 {
+  margin-top: 150px;
+  padding: 0 20px;
+}
+.header .text p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+}
+.header .text ul {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+}
+.header .text ul li {
+  position: relative;
+  display: inline-block;
+  min-width: 20px;
+  padding: 0px 11px 15px;
+}
+.header .text ul li:last-child,
+.header .text ul li:first-child {
+  display: block;
+}
+.header .text ul li:last-child {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+.header .text ul li button {
+  width: 150px;
+  height: 48px;
+  border: none;
+  background-color: #1a8594;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.header .text ul li .light-text {
+  opacity: 0.58;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  margin-left: 7px;
+}
+.sister-cyril {
+  padding: 44px 20px 0;
+  max-width: 725px;
+}
+.sister-cyril .round {
+  width: 239px;
+  height: 239px;
+  border: 6px solid #d8d8d8;
+  border-radius: 100%;
+  margin: 0 auto 30px;
+  display: block;
+}
+.proc-se-zucastnit {
+  padding: 55px 20px 0;
+}
+.proc-se-zucastnit h2 {
+  margin-bottom: 0;
+}
+.proc-se-zucastnit ul li {
+  position: relative;
+  display: inline-block;
+  min-width: 200px;
+}
+.proc-se-zucastnit ul li svg {
+  margin: 50px auto 20px;
+}
+.proc-se-zucastnit .videopozvanka {
+  width: 280px;
+  height: 157px;
+  margin: 50px auto 13px;
+}
+.informace {
+  padding: 25px 20px 0;
+  max-width: 682px;
+}
+.informace ul {
+  padding-top: 30px;
+}
+.informace ul li {
+  position: relative;
+  display: inline-block;
+  min-width: 145px;
+  margin-top: 12px;
+}
+.informace ul li:first-child {
+  margin-top: 0px;
+}
+.line {
+  width: 20px;
+  border-bottom: 2px solid #f1f1f1;
+  margin: 35px auto 15px;
+}
+.quote {
+  padding: 0 20px;
+}
+.quote big {
+  margin-bottom: 7px;
+}
+.movie {
+  padding: 40px 20px 0;
+}
+.movie .video {
+  width: 320px;
+  height: 180px;
+}
+.links {
+  padding: 40px 20px;
+  max-width: 850px;
+}
+.links ul li {
+  display: inline-block;
+  padding: 9px 0;
+  margin: 0 20px;
+}
+.links ul li a:before {
+  content: url('images/download.svg');
+  margin-right: 5px;
+}
+.links button,
+.links li {
+  color: #0e6e76;
+  font-size: 16px;
+}
+.links button .pdf,
+.links li .pdf {
+  color: #616161;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.links button {
+  width: 87.5%;
+  max-width: 280px;
+  height: 62px;
+  border: 1px dashed #979797;
+  border-radius: 8px;
+  background-color: white;
+}
+.links button:hover {
+  border: 1px dashed #1a8594;
+}
+.links button:before {
+  content: url('images/download.png');
+  margin-right: 5px;
+}
+@media (max-width: 609px) {
+  .dont-show {
+    display: none;
+  }
+}
+@media (min-width: 610px) {
+  body {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  big {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .header {
+    height: 100%;
+    background: #333333 url('images/girls.png') no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .header .overlay {
+    background-image: radial-gradient(659px 306px at 54.1% 50.55%, rgba(40, 44, 50, 0.44) 3%, rgba(40, 44, 50, 0.87) 99%);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+  }
+  .header .bottom-bar {
+    height: 180px;
+    opacity: 0.45;
+    background-color: #211e1e;
+  }
+  .header .text {
+    height: 100%;
+  }
+  .header .text .top-text {
+    margin: 20px 6.4% 0;
+  }
+  .header .text h1 {
+    font-size: 42px;
+    line-height: 46px;
+    margin-top: 15.5%;
+  }
+  .header .text p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .header .text ul {
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 65px;
+  }
+  .header .text ul li {
+    padding: 0px;
+    width: 30%;
+    height: 30px;
+  }
+  .header .text ul li:last-child,
+  .header .text ul li:first-child {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+  }
+  .header .text ul li:last-child {
+    padding-top: 0;
+  }
+  .header .text ul li .light-text {
+    display: block;
+    margin-left: 0;
+  }
+  .header .text ul li svg {
+    display: block;
+    margin-bottom: 5px;
+    width: 20px;
+  }
+  .header .text ul .button::before {
+    content: 'Zúčastníš se?';
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .header .text .arrow {
+    position: absolute;
+    bottom: 22px;
+    width: 100%;
+  }
+  .sister-cyril {
+    padding: 44px 20px 23px;
+  }
+  .proc-se-zucastnit {
+    padding: 45px 20px 30px;
+  }
+  .proc-se-zucastnit ul li svg {
+    margin-top: 43px;
+  }
+  .informace {
+    padding: 30px 20px;
+  }
+  .quote {
+    padding: 40px 20px 0;
+    max-width: 752px;
+  }
+  .quote .uvozovky {
+    display: none;
+  }
+  .quote .quotation {
+    max-width: 700px;
+    display: inline-block;
+  }
+  .quote .quotation big {
+    margin-bottom: 25px;
+  }
+  .quote .quotation p {
+    font-size: 14px;
+  }
+  .movie {
+    padding: 40px 20px 30px;
+  }
+  .links {
+    padding: 45px 20px 40px;
+  }
+  .line {
+    display: none;
+  }
+  .vertical-line {
+    height: 70px;
+    width: 0;
+    border-left: 3px solid #d8d8d8;
+  }
+}
+@media (min-width: 860px) {
+  big {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .header .bottom-bar {
+    height: 220px;
+    bottom: 0px;
+    padding-bottom: 0;
+  }
+  .header .text {
+    height: 100%;
+  }
+  .header .text .top-text {
+    margin: 20px 55px 0;
+  }
+  .header .text h1 {
+    margin-top: 12.9%;
+    font-size: 56px;
+    line-height: 65px;
+  }
+  .header .text p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header .text b {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header .text ul {
+    bottom: 78px;
+  }
+  .header .text ul li {
+    padding: 0px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header .text ul li:last-child,
+  .header .text ul li:first-child {
+    top: 25px;
+  }
+  .header .text ul li button {
+    width: auto;
+    height: 52px;
+    font-size: 20px;
+    padding-right: 32px;
+    background: linear-gradient(to right, #157885, #157885 24%, #1a8594 24%, #1a8594);
+  }
+  .header .text ul li button::before {
+    content: url('images/fajfka.png');
+    width: 16px;
+    height: 14px;
+    margin: 0 30px 0 19px;
+  }
+  .header .text ul li .light-text {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+  }
+  .header .text ul li svg {
+    display: block;
+    margin-bottom: 15px;
+    width: 26px;
+  }
+  .header .text .arrow {
+    bottom: 30px;
+  }
+  .quote {
+    margin: 0 auto;
+    padding: 40px 0 0;
+  }
+  .quote .uvozovky {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+  }
+  .quote .uvozovky .uvozovka {
+    width: 17px;
+    height: 15px;
+  }
+  .quote .uvozovky .rotated {
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;
+  }
+  .quote .left {
+    margin-right: 7px;
+  }
+  .quote .right {
+    margin-left: 7px;
+  }
+}
