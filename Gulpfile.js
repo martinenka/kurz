@@ -65,12 +65,17 @@ gulp.task('html:build', function() {
    .pipe(gulp.dest('./dist/'));
 });
 gulp.task('less:build', function () {
+  del([
+    'dist/*.css'
+  ]);
+
   var combined = combiner.obj([
     gulp.src('./src/style.less')
     .pipe(less({
       paths: [ path.join(__dirname, 'less', 'includes') ]
     }))
-    .pipe(gulp.dest('./dist/css/'))
+    .pipe(cssmin())
+    .pipe(gulp.dest('./dist/'))
     .pipe(browserSync.reload({stream:true}))
   ]);
   combined.on('error', console.error.bind(console));
@@ -82,7 +87,7 @@ gulp.task('scripts:build', function() {
    .pipe(gulp.dest('./dist/js/'));
 });
 
-gulp.task('build', ['clean', 'assets','less:build', 'scripts:build', 'html:build', 'fonts']);
+gulp.task('build', ['less:build', 'scripts:build', 'html:build', 'fonts']);
 gulp.task('default', ['browser-sync', 'less', 'html',  'scripts', 'fonts'], function () {
   gulp.watch('src/**/*.less', ['less']);
   gulp.watch('src/**/*.html', ['html', 'bs-reload']);
