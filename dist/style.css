@@ -123,7 +123,7 @@ li {
   background-attachment: initial;
 }
 .header .overlay {
-  background-image: radial-gradient(433px 201px at 54.1% 50.55%, rgba(40, 44, 50, 0.44) 3%, rgba(40, 44, 50, 0.87) 99%);
+  background-image: radial-gradient(433px 201px at 54.1% 50.55%, rgba(40, 44, 50, 0.8) 3%, rgba(40, 44, 50, 0.9) 99%);
   width: 100%;
   height: 100%;
 }
@@ -330,7 +330,7 @@ li {
     background-size: cover;
   }
   .header .overlay {
-    background-image: radial-gradient(659px 306px at 54.1% 50.55%, rgba(40, 44, 50, 0.44) 3%, rgba(40, 44, 50, 0.87) 99%);
+    background-image: radial-gradient(659px 306px at 54.1% 50.55%, rgba(40, 44, 50, 0.8) 3%, rgba(40, 44, 50, 0.9) 99%);
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -449,6 +449,12 @@ li {
   .header {
     min-height: 580px;
     position: relative;
+  }
+  .header .overlay {
+    background-image: radial-gradient(659px 306px at 54.1% 50.55%, rgba(40, 44, 50, 0.44) 3%, rgba(40, 44, 50, 0.87) 99%);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
   }
   .header .bottom-bar {
     height: 220px;
