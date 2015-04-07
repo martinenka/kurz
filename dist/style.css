@@ -588,3 +588,12 @@ li {
   min-height: 120px;
   padding-top: 10px;
 }
+.video-wrap {
+  width: 100%;
+  height: auto;
+}
+.video-wrap video {
+  width: 100%;
+  max-width: 970px;
+  height: auto;
+}
