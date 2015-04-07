@@ -121,8 +121,6 @@ li {
   background: url('images/girls3.png') no-repeat center top;
   background-size: 640px auto;
   background-attachment: initial;
-  min-height: 580px;
-  position: relative;
 }
 .header .overlay {
   background-image: radial-gradient(433px 201px at 54.1% 50.55%, rgba(40, 44, 50, 0.44) 3%, rgba(40, 44, 50, 0.87) 99%);
@@ -447,6 +445,10 @@ li {
   big {
     font-size: 30px;
     line-height: 38px;
+  }
+  .header {
+    min-height: 580px;
+    position: relative;
   }
   .header .bottom-bar {
     height: 220px;
