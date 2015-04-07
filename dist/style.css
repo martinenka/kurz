@@ -550,6 +550,11 @@ li {
   /* Rectangle 16: */
   border: 1px solid #E7E7E7;
 }
+@media only screen and (max-width: 700px) {
+  .form {
+    width: 100%;
+  }
+}
 .form .form-info {
   font-family: 'LatoLight';
   font-size: 14px;
