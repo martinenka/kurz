@@ -1,0 +1,21 @@
+{
+  "name": "Sitbesideme",
+  "description": "",
+  "repository": "",
+  "version": "0.0.0",
+  "devDependencies": {
+    "browser-sync": "*",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-less": "*",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sprite-generator": "^0.2.3",
+    "gulp-uglify": "^1.1.0",
+    "imagemin-pngquant": "^4.0.0",
+    "stream-combiner2": "*"
+  }
+}
